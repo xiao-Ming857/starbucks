@@ -303,6 +303,12 @@
                 $('body').css('overflow', 'auto');
             }
         }
+        
+        //点击底部按钮切换active
+        $('#caidanBtm li').on('click', function() {
+            $(this).find('a').addClass('active');
+            $(this).siblings().find('a').removeClass('active');
+        });
     </script>
 </body>
 

@@ -120,6 +120,12 @@ a:hover {
     cursor: pointer;
 }
 
+@media (max-width:574.98px) {
+    .menu.hide {
+        display: none !important;
+    }
+}
+
 
 /* 右侧内容 */
 
